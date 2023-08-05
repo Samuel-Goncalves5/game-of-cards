@@ -1,0 +1,81 @@
+.FixedBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../Images/Menu/Principal1.png");
+  background-size: 100% 100%;
+}
+
+.MovingBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../Images/Menu/Principal2.png");
+
+  animation: Moving-background-translate 20s linear infinite;
+}
+
+@keyframes Moving-background-translate {
+  0% {
+    background-position: 0, 0;
+  }
+  100% {
+    background-position: 100%, 0;
+  }
+}
+
+.Header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.Contenu {
+  background-color: rgb(240, 216, 181);
+  border-radius: 30px;
+  border: 10px solid rgb(75, 49, 41);
+  margin: 25% 40% 0;
+  text-align: center;
+}
+
+.Border1 {
+  border-radius: 20px;
+  border: 10px solid rgb(170, 128, 95);
+}
+
+.Border2 {
+  border-radius: 10px;
+  border: 8px solid rgb(255, 241, 210);
+}
+
+.PrincipalButton {
+  display: inline;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-top: 5%;
+  cursor:pointer;
+}
+
+.PlayButton {
+  display: block;
+  background-image: url("../Images/Boutons/carte.png");
+  height: 64px;
+  width: 64px;
+}
+
+.OptionsButton {
+  display: block;
+  background-image: url("../Images/Boutons/outils.png");
+  height: 64px;
+  width: 64px;
+}
+
+.DataBaseButton {
+  display: block;
+  background-image: url("../Images/Boutons/sac.png");
+  height: 64px;
+  width: 64px;
+}
