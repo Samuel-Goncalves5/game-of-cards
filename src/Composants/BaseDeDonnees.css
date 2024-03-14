@@ -1,0 +1,29 @@
+.BaseDeDonnees {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../Images/terrain2.png");
+    background-size: 100% 100%;
+}
+
+.InterieurCarte {
+    position: absolute;
+
+    top: 20.5%;
+    left: 21%;
+
+    height: 75.5%;
+    width: 28.75%;
+}
+
+.InterieurEffet {
+    position: absolute;
+
+    top: 20.5%;
+    left: 50.5%;
+
+    height: 75.5%;
+    width: 29.5%;
+}

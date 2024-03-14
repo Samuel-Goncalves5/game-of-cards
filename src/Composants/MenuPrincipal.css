@@ -28,54 +28,195 @@
 
 .Header {
   position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top: 2%;
+
+  width: 12%;
+  height: 20%;
+
+  top: 5%;
+  left: 44%;
+
+  background-image: url("../Images/Shiro.png");
+  background-size: 100% 100%;
 }
 
-.Contenu {
-  background-color: rgb(240, 216, 181);
-  border-radius: 30px;
-  border: 10px solid rgb(75, 49, 41);
-  margin: 25% 40% 0;
-  text-align: center;
-}
+.Border3 {
+  position: absolute;
 
-.Border1 {
-  border-radius: 20px;
-  border: 10px solid rgb(170, 128, 95);
+  width: 20%;
+  height: 30%;
+
+  top: 45%;
+  left: 40%;
+
+  border-radius: 5%;
+
+  background-color: rgb(75, 49, 41);
 }
 
 .Border2 {
-  border-radius: 10px;
-  border: 8px solid rgb(255, 241, 210);
+  position: absolute;
+
+  width: 94%;
+  height: 94%;
+
+  top: 3%;
+  left: 3%;
+
+  border-radius: 5%;
+
+  background-color: rgb(170, 128, 95);
 }
 
-.PrincipalButton {
-  display: inline;
-  background-color: rgba(0, 0, 0, 0);
+.Border1 {
+  position: absolute;
+
+  width: 94%;
+  height: 94%;
+
+  top: 3%;
+  left: 3%;
+
+  border-radius: 5%;
+
+  background-color: rgb(255, 241, 210);
+}
+
+.Contenu {
+  position: absolute;
+
+  width: 94%;
+  height: 94%;
+
+  top: 3%;
+  left: 3%;
+
+  border-radius: 5%;
+
+  background-color: rgb(240, 216, 181);
+}
+
+.PrincipalButton1 {
+  position: absolute;
+
+  width: 100%;
+  height: 30%;
+
+  top: 2%;
+
+  background: none;
   border: none;
-  margin-top: 5%;
+
   cursor:pointer;
 }
 
+.PrincipalButton1:hover {
+  background-color: rgb(230, 206, 171);
+}
+
+.PrincipalButton1:active {
+  background-color: rgb(220, 196, 161);
+}
+
+.PrincipalButton2 {
+  position: absolute;
+
+  width: 100%;
+  height: 30%;
+
+  top: 35%;
+
+  background: none;
+  border: none;
+
+  cursor:pointer;
+}
+
+.PrincipalButton2:hover {
+  background-color: rgb(230, 206, 171);
+}
+
+.PrincipalButton2:active {
+  background-color: rgb(220, 196, 161);
+}
+
+.PrincipalButton3 {
+  position: absolute;
+
+  width: 100%;
+  height: 30%;
+
+  top: 68%;
+
+  background: none;
+  border: none;
+
+  cursor:pointer;
+}
+
+.PrincipalButton3:hover {
+  background-color: rgb(230, 206, 171);
+}
+
+.PrincipalButton3:active {
+  background-color: rgb(220, 196, 161);
+}
+
 .PlayButton {
-  display: block;
+  position: absolute;
+
+  width: 26%;
+  height: 100%;
+
+  top: 0%;
+  left: 0%;
+
+  margin: 0;
+  padding: 0;
+
   background-image: url("../Images/Boutons/carte.png");
-  height: 64px;
-  width: 64px;
+  background-size: 100% 100%;
 }
 
 .OptionsButton {
-  display: block;
+  position: absolute;
+
+  width: 26%;
+  height: 100%;
+
+  top: 0%;
+  left: 0%;
+
+  margin: 0;
+  padding: 0;
+
   background-image: url("../Images/Boutons/outils.png");
-  height: 64px;
-  width: 64px;
+  background-size: 100% 100%;
 }
 
 .DataBaseButton {
-  display: block;
+  position: absolute;
+
+  width: 26%;
+  height: 100%;
+
+  top: 0%;
+  left: 0%;
+
+  margin: 0;
+  padding: 0;
+
   background-image: url("../Images/Boutons/sac.png");
-  height: 64px;
-  width: 64px;
+  background-size: 100% 100%;
+}
+
+.Text {
+  position: absolute;
+
+  width: 74%;
+
+  top: 40%;
+  left: 26%;
+
+  text-align: center;
+  font-size: 2vh;
 }

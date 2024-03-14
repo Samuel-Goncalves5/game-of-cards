@@ -125,7 +125,7 @@
   padding: 0;
 }
 
-.Left .Game .Front {
+.Left .Game .Back {
   position: absolute;
 
   height: 100%;
@@ -138,7 +138,20 @@
   padding: 0;
 }
 
-.Left .Game .Back {
+.Left .Game .Front {
+  position: absolute;
+
+  height: 100%;
+  width: 50%;
+
+  top: 0%;
+  left: 49%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.Right .Game .Back {
   position: absolute;
 
   height: 100%;
@@ -158,13 +171,43 @@
   width: 50%;
 
   top: 0%;
-  left: 50%;
+  left: 1%;
 
   margin: 0;
   padding: 0;
 }
 
-.Right .Game .Back {
+.A {
+  position: absolute;
+
+  height: 31%;
+  width: 96%;
+
+  top: 1%;
+  left: 2%;
+}
+
+.B {
+  position: absolute;
+
+  height: 31%;
+  width: 96%;
+
+  top: 35%;
+  left: 2%;
+}
+
+.C {
+  position: absolute;
+
+  height: 31%;
+  width: 96%;
+
+  top: 69%;
+  left: 2%;
+}
+
+.Infos .Left {
   position: absolute;
 
   height: 100%;
@@ -177,32 +220,182 @@
   padding: 0;
 }
 
-.A {
+.Infos .Right {
   position: absolute;
 
-  height: 32%;
-  width: 100%;
+  height: 100%;
+  width: 50%;
 
   top: 0%;
-  left: 0%;
+  left: 50%;
+
+  margin: 0;
+  padding: 0;
 }
 
-.B {
+.Infos .Left .Deck {
   position: absolute;
 
-  height: 32%;
-  width: 100%;
+  height: 79%;
+  width: 37%;
 
-  top: 34%;
-  left: 0%;
+  top: 17%;
+  left: 3.5%;
+
+  margin: 0;
+  padding: 0;
+
+  background: url("../Images/Carte/carteDos2.png");
+  background-size: 100% 100%;
 }
 
-.C {
+.Infos .Left .Vie {
   position: absolute;
 
-  height: 32%;
-  width: 100%;
+  height: 30%;
+  width: 38%;
 
-  top: 68%;
-  left: 0%;
+  top: 33%;
+  left: 60%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Infos .Left .Manaa {
+  position: absolute;
+
+  height: 26%;
+  width: 43%;
+
+  top: 69%;
+  left: 55%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Infos .Right .Deck {
+  position: absolute;
+
+  height: 79%;
+  width: 37%;
+
+  top: 17%;
+  left: 59.5%;
+
+  margin: 0;
+  padding: 0;
+
+  background: url("../Images/Carte/carteDos2.png");
+  background-size: 100% 100%;
+}
+
+.Infos .Right .Vie {
+  position: absolute;
+
+  height: 30%;
+  width: 38%;
+
+  top: 33%;
+  left: 2%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Infos .Right .Manaa {
+  position: absolute;
+
+  height: 26%;
+  width: 43%;
+
+  top: 69%;
+  left: 2%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Options {
+  position: absolute;
+
+  height: 20%;
+  width: 30%;
+
+  top: 10%;
+  left: 35%;
+
+  text-align: center;
+  font-size: 2vh;
+
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.Options:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.Database {
+  position: absolute;
+
+  height: 20%;
+  width: 30%;
+
+  top: 40%;
+  left: 35%;
+
+  text-align: center;
+  font-size: 2vh;
+
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.Database:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.Quit {
+  position: absolute;
+
+  height: 20%;
+  width: 30%;
+
+  top: 70%;
+  left: 35%;
+
+  text-align: center;
+  font-size: 2vh;
+
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.Quit:hover {
+  background-color: rgba(255, 255, 255, 0.85);
 }

@@ -1,0 +1,37 @@
+.BackgroundA {
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../Images/Carte/carte2.png');
+    background-size: 100% 100%;
+}
+
+.MainBackground {
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-size: 100% 100%;
+}
+
+.BackgroundB {
+    position: absolute;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../Images/Carte/carte1.png');
+    background-size: 100% 100%;
+}
